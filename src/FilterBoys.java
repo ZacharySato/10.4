@@ -7,17 +7,17 @@ public class FilterBoys {
     private static final int LIMIT = 4;
 
     private final ArrayList<Boy> boys = new ArrayList<>() {{
-        add(new Boy("Николай", 68));
-        add(new Boy("Пётр", 53));
-        add(new Boy("Василий", 25));
-        add(new Boy("Михаил", 19));
-        add(new Boy("Алексей", 6));
-        add(new Boy("Николай", 86));
-        add(new Boy("Пётр", 35));
-        add(new Boy("Михаил", 111));
-        add(new Boy("Алексей", 22));
-        add(new Boy("Михаил", 1));
-        add(new Boy("Яков", 30));
+        add(new Boy("РќРёРєРѕР»Р°Р№", 68));
+        add(new Boy("РџС‘С‚СЂ", 53));
+        add(new Boy("Р’Р°СЃРёР»РёР№", 25));
+        add(new Boy("РњРёС…Р°РёР»", 19));
+        add(new Boy("РђР»РµРєСЃРµР№", 6));
+        add(new Boy("РќРёРєРѕР»Р°Р№", 86));
+        add(new Boy("РџС‘С‚СЂ", 35));
+        add(new Boy("РњРёС…Р°РёР»", 111));
+        add(new Boy("РђР»РµРєСЃРµР№", 22));
+        add(new Boy("РњРёС…Р°РёР»", 1));
+        add(new Boy("РЇРєРѕРІ", 30));
     }};
 
     public final void filterBoys() {
